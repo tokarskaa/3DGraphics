@@ -66,6 +66,13 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="FlatShading.cs" />
+    <Compile Include="GouradShading.cs" />
+    <Compile Include="IShadingAlgorithm.cs" />
+    <Compile Include="PhongReflection.cs" />
+    <Compile Include="ScanLine.cs" />
+    <Compile Include="Scene.cs" />
+    <Compile Include="Vertex.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -84,6 +91,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Mesh.cs" />
+    <Compile Include="MeshLoader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

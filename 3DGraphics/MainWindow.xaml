@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:_3DGraphics"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="350" Width="525" WindowState="Maximized"
+        KeyDown="MainWindow_OnKeyDown">
     <Grid>
         <Image Name="MainImage" Grid.Column="1" Stretch="None" Source="{Binding Path=Image}" VerticalAlignment="Center" HorizontalAlignment="Center" Margin="10"/>
     </Grid>
